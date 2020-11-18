@@ -6,5 +6,4 @@ package prg;
  */
 public class App 
 {
-	//documentation
 }
