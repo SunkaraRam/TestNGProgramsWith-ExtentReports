@@ -11,6 +11,7 @@ public class VowelsD {
 		StringBuffer res=new StringBuffer("");
 		
 		int vowels = 0;
+		
 		Scanner s = new Scanner(System.in);
 		
 		System.out.println("Enter a String : ");
@@ -31,10 +32,7 @@ public class VowelsD {
 					res  = res.append(str);
 				
 				//System.out.println(ch);
-				
-				
-				
-				
+			
 			}
 		}
 		
