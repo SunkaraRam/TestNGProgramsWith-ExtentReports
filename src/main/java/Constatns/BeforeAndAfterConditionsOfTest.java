@@ -1,15 +1,16 @@
 package Constatns;
 
+
+import org.junit.BeforeClass;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
 public class BeforeAndAfterConditionsOfTest {
 	
-	@BeforeSuite
+	@BeforeSuite 
 	public void beforesuitDemo() {
 		
 		System.out.println("This is before Suite");
@@ -18,7 +19,7 @@ public class BeforeAndAfterConditionsOfTest {
 	@BeforeTest
 	public void beforeTestDemo() {
 		
-		System.out.println("This is before Test");
+		//System.out.println("This is before Test");
 		
 	}
 	
@@ -26,7 +27,7 @@ public class BeforeAndAfterConditionsOfTest {
 	public void beforeclassDemo() {
 		
 		System.out.println("This is before Class");
-		
+
 	}
 	
 	
@@ -39,6 +40,7 @@ public class BeforeAndAfterConditionsOfTest {
 	public void afterClassDemo() {
 		
 		System.out.println("This is after Class");
+		
 	}
 	
 	
